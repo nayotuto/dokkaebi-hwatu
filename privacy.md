@@ -1,7 +1,7 @@
 # 개인정보처리방침 / Privacy Policy
 
 **도깨비화투 (Dokkaebi Hwatu)**  
-최종 수정일 / Last Updated: 2025-04-28
+최종 수정일 / Last Updated: 2026-05-02
 
 ---
 
@@ -21,6 +21,8 @@
 - **기기 정보**: 기기 모델, 운영체제 버전, 언어 설정
 - **IP 주소**: 광고 송출 및 네트워크 통신 시 자동 수집
 - **앱 사용 데이터**: 세션 정보, 앱 실행 횟수 등
+- **Google 계정 정보**: Google Play Games Services 로그인 시 구글 계정 식별자 자동 수집
+- **게임 진행 데이터**: 해금된 카드/부적 목록, 런 기록, 설정값 등 (기기 내 로컬 저장 및 클라우드 백업)
 
 ---
 
@@ -29,7 +31,9 @@
 수집된 정보는 다음 목적으로만 이용됩니다.
 
 - 광고 서비스 제공 (Google AdMob)
-- 인앱 결제 처리 (Google Play Billing)
+- 광고 개인화 동의 관리 (Google UMP)
+- 인앱 결제 처리 (Google Play Billing / Unity IAP)
+- 게임 진행 데이터 클라우드 저장 및 기기 간 동기화 (Google Play Games Services)
 - 앱 안정성 및 오류 개선
 
 ---
@@ -41,7 +45,9 @@
 | 제공 대상 | 제공 항목 | 목적 | 개인정보처리방침 |
 |----------|----------|------|----------------|
 | Google LLC (AdMob) | 광고 식별자, 기기 정보 | 광고 서비스 제공 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
+| Google LLC (UMP) | 광고 동의 여부 | 광고 개인화 동의 관리 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
 | Google LLC (Play Billing) | 결제 관련 정보 | 인앱 결제 처리 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
+| Google LLC (Play Games Services) | Google 계정 식별자, 게임 진행 데이터 | 클라우드 저장 및 기기 간 동기화 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
 
 위 경우 외에는 이용자의 동의 없이 정보를 제3자에게 제공하지 않습니다.
 
@@ -50,16 +56,18 @@
 ### 5. 정보의 보유 및 파기
 
 - 개발자는 이용자의 개인정보를 별도 서버에 저장하지 않습니다.
-- 기기 내 저장된 게임 진행 데이터는 앱 삭제 시 자동으로 삭제됩니다.
+- **로컬 저장 데이터** (게임 진행 상태, 설정값 등)는 기기 내에만 저장되며, 앱 삭제 시 자동으로 삭제됩니다.
+- **클라우드 저장 데이터** (Google Play Games Services)는 이용자의 Google 계정에 연결되어 저장되며, 보유 기간은 [Google 개인정보처리방침](https://policies.google.com/privacy)에 따릅니다.
 - 광고 식별자 등 Google이 수집하는 데이터의 보유 기간은 [Google 개인정보처리방침](https://policies.google.com/privacy)에 따릅니다.
 
 ---
 
 ### 6. 이용자의 권리
 
-이용자는 다음과 같은 방법으로 광고 추적을 제한할 수 있습니다.
+이용자는 다음과 같은 방법으로 광고 추적을 제한하거나 데이터를 관리할 수 있습니다.
 
 - Android: **설정 → 개인정보 보호 → 광고** 에서 광고 ID 재설정 또는 광고 맞춤설정 해제
+- Google Play Games Services 데이터 삭제: **Google Play 게임 앱 → 설정 → 계정 삭제**
 
 유럽경제지역(EEA) 및 영국 이용자의 경우, 앱 실행 시 Google의 동의 관리 플랫폼(UMP)을 통해 광고 개인화 동의 여부를 선택할 수 있습니다.
 
@@ -90,7 +98,8 @@
 
 | 버전 | 날짜 | 변경 내용 |
 |------|------|----------|
-| 1.0 | 2025-04-28 | 최초 작성 |
+| 1.0 | 2026-04-28 | 최초 작성 |
+| 1.1 | 2026-05-02 | Google Play Games Services 및 로컬 저장 데이터 항목 추가, UMP 제3자 제공 명시 |
 
 ---
 ---
@@ -111,6 +120,8 @@ The Developer does not directly collect personal information such as your name o
 - **Device Information**: Device model, operating system version, language settings
 - **IP Address**: Automatically collected during ad delivery and network communication
 - **App Usage Data**: Session information, app launch frequency, etc.
+- **Google Account Identifier**: Automatically collected upon sign-in via Google Play Games Services
+- **Game Progress Data**: Unlocked cards/relics, run history, settings, etc. (stored locally on device and backed up to the cloud)
 
 ---
 
@@ -119,7 +130,9 @@ The Developer does not directly collect personal information such as your name o
 Collected information is used solely for the following purposes.
 
 - Providing advertising services (Google AdMob)
-- Processing in-app purchases (Google Play Billing)
+- Managing ad personalization consent (Google UMP)
+- Processing in-app purchases (Google Play Billing / Unity IAP)
+- Saving and syncing game progress across devices (Google Play Games Services)
 - Improving app stability and fixing errors
 
 ---
@@ -131,7 +144,9 @@ The Developer shares collected information with third parties only in the follow
 | Recipient | Data Shared | Purpose | Privacy Policy |
 |----------|-------------|---------|----------------|
 | Google LLC (AdMob) | Advertising identifier, device info | Ad service delivery | [Google Privacy Policy](https://policies.google.com/privacy) |
+| Google LLC (UMP) | Ad consent status | Ad personalization consent management | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Google LLC (Play Billing) | Payment-related information | In-app purchase processing | [Google Privacy Policy](https://policies.google.com/privacy) |
+| Google LLC (Play Games Services) | Google account identifier, game progress data | Cloud save and cross-device sync | [Google Privacy Policy](https://policies.google.com/privacy) |
 
 Outside of the above, no information is shared with third parties without your consent.
 
@@ -140,16 +155,18 @@ Outside of the above, no information is shared with third parties without your c
 ### 5. Data Retention and Deletion
 
 - The Developer does not store personal information on any external server.
-- Game progress data stored on your device is automatically deleted when the App is uninstalled.
-- Retention periods for data collected by Google (such as advertising identifiers) are governed by the [Google Privacy Policy](https://policies.google.com/privacy).
+- **Local data** (game progress, settings, etc.) is stored only on your device and is automatically deleted when the App is uninstalled.
+- **Cloud save data** (via Google Play Games Services) is linked to your Google account. Retention is governed by the [Google Privacy Policy](https://policies.google.com/privacy).
+- Retention periods for other data collected by Google (such as advertising identifiers) are also governed by the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ---
 
 ### 6. Your Rights
 
-You may limit ad tracking in the following ways.
+You may manage your data or limit ad tracking in the following ways.
 
 - Android: Go to **Settings → Privacy → Ads** to reset your Advertising ID or opt out of ad personalization.
+- To delete Google Play Games Services data: **Google Play Games app → Settings → Delete account**.
 
 For users in the European Economic Area (EEA) or the United Kingdom, you will be shown a consent form powered by Google's User Messaging Platform (UMP) upon first launch, allowing you to choose whether to receive personalized ads.
 
@@ -182,4 +199,5 @@ For questions regarding this Privacy Policy, please contact:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2025-04-28 | Initial release |
+| 1.0 | 2026-04-28 | Initial release |
+| 1.1 | 2026-05-02 | Added Google Play Games Services, local save data, and UMP third-party disclosure |
