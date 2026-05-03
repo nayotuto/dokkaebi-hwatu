@@ -1,7 +1,7 @@
 # 개인정보처리방침 / Privacy Policy
 
 **도깨비화투 (Dokkaebi Hwatu)**  
-최종 수정일 / Last Updated: 2026-05-02
+최종 수정일 / Last Updated: 2026-05-04
 
 ---
 
@@ -44,7 +44,8 @@
 
 | 제공 대상 | 제공 항목 | 목적 | 개인정보처리방침 |
 |----------|----------|------|----------------|
-| Google LLC (AdMob) | 광고 식별자, 기기 정보 | 광고 서비스 제공 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
+| Google LLC (AdMob) | 광고 식별자 (GAID) | 광고 서비스 제공 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
+| Google LLC (AdMob) | 기기 ID (기기 정보) | 광고 서비스 제공 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
 | Google LLC (UMP) | 광고 동의 여부 | 광고 개인화 동의 관리 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
 | Google LLC (Play Billing) | 결제 관련 정보 | 인앱 결제 처리 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
 | Google LLC (Play Games Services) | Google 계정 식별자, 게임 진행 데이터 | 클라우드 저장 및 기기 간 동기화 | [Google 개인정보처리방침](https://policies.google.com/privacy) |
@@ -100,6 +101,7 @@
 |------|------|----------|
 | 1.0 | 2026-04-28 | 최초 작성 |
 | 1.1 | 2026-05-02 | Google Play Games Services 및 로컬 저장 데이터 항목 추가, UMP 제3자 제공 명시 |
+| 1.2 | 2026-05-04 | 제3자 제공 표에서 광고 식별자(GAID)와 기기 ID 항목 분리 |
 
 ---
 ---
@@ -143,7 +145,8 @@ The Developer shares collected information with third parties only in the follow
 
 | Recipient | Data Shared | Purpose | Privacy Policy |
 |----------|-------------|---------|----------------|
-| Google LLC (AdMob) | Advertising identifier, device info | Ad service delivery | [Google Privacy Policy](https://policies.google.com/privacy) |
+| Google LLC (AdMob) | Advertising Identifier (GAID) | Ad service delivery | [Google Privacy Policy](https://policies.google.com/privacy) |
+| Google LLC (AdMob) | Device ID (device information) | Ad service delivery | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Google LLC (UMP) | Ad consent status | Ad personalization consent management | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Google LLC (Play Billing) | Payment-related information | In-app purchase processing | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Google LLC (Play Games Services) | Google account identifier, game progress data | Cloud save and cross-device sync | [Google Privacy Policy](https://policies.google.com/privacy) |
@@ -201,3 +204,4 @@ For questions regarding this Privacy Policy, please contact:
 |---------|------|---------|
 | 1.0 | 2026-04-28 | Initial release |
 | 1.1 | 2026-05-02 | Added Google Play Games Services, local save data, and UMP third-party disclosure |
+| 1.2 | 2026-05-04 | Separated Advertising Identifier (GAID) and Device ID into distinct rows in third-party disclosure table |
